@@ -19,6 +19,9 @@ export class Fighter {
 				fighter.life -= damageDealt;
 			}
 		}
+		console.log(
+			`${this.name} ATTACKS ${fighter.name}; HP LEFT: ${fighter.life}`,
+		);
 	}
 
 	isAlive() {
